@@ -1,1 +1,151 @@
 
+/* Global Button Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Primary Button */
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.primary:hover {
+  background-color: #0056b3;
+}
+
+/* Outline Secondary Button */
+.btn.outline-secondary {
+  background-color: transparent;
+  color: #6c757d;
+  border: 2px solid #6c757d;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.outline-secondary:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Success Large Button */
+.btn.success {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.success.large {
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+.btn.success:hover {
+  background-color: #218838;
+}
+
+/* Danger Small Button */
+.btn.danger {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.danger.small {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.btn.danger:hover {
+  background-color: #c82333;
+}
+
+/* Warning Large Full-Screen Width Button */
+.btn.warning {
+  background-color: #ffc107;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.warning.large {
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+.btn.warning.full-width {
+  width: 100%;
+}
+
+.btn.warning:hover {
+  background-color: #e0a800;
+}
+
+/* Disabled Info Button */
+.btn.info {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.info.disabled {
+  background-color: #c6e0e9;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Light Button */
+.btn.light {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Link Button */
+.btn.link {
+  background-color: transparent;
+  color: #007bff;
+  font-size: 16px;
+  padding: 0;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
